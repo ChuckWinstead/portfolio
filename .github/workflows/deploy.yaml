@@ -1,4 +1,7 @@
-push:
+name: Deploy to GitHub Pages
+
+on:
+  push:
     branches:
       - main
 
@@ -22,7 +25,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Build output to publish to the `gh-pages` branch:
           publish_dir: ./build
           user_name: ChuckWinstead
           user_email: chuck.winstead180@gmail.com
