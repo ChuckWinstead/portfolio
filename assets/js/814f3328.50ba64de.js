@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[535],{5641:o=>{o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First real blog post","permalink":"/portfolio/blog/first-post"},{"title":"Welcome","permalink":"/portfolio/blog/welcome"}]}')}}]);
