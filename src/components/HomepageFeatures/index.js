@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Use logical layouts',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Logical layouts make it easier for screen reader users to navigate around your website.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Label buttons and other elements',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Labeling buttons, links and other elements on your webpage gives not only blind users, but everyone a clear idea of what they are doing.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Use alt text when using images',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Alt text to images provides a mental image to a blind user. This can be important if the image has many details to the topic on the page.
       </>
     ),
   },
