@@ -66,8 +66,8 @@ const config = {
         items: [
           
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/about-me', label: 'About Me', position: 'left'},
-          {to: '/contact', label: 'Contact Me', position: 'left'},
+          {to: '/about-me', label: 'About', position: 'left'},
+          {to: '/contact', label: 'Contact', position: 'left'},
           {
             href: 'https://github.com/chuckwinstead',
             label: 'GitHub',
