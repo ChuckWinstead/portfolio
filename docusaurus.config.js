@@ -67,8 +67,9 @@ const config = {
           
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/about-me', label: 'About Me', position: 'left'},
+          {to: '/contact', label: 'Contact Me', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/chuckwinstead',
             label: 'GitHub',
             position: 'right',
           },
